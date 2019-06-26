@@ -1,0 +1,17 @@
+{
+  "name": "wynum-node",
+  "version": "0.1.0",
+  "description": "Wynum client for node",
+  "main": "index.js",
+  "author": "the-groot",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "form-data": "^2.4.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.17.3"
+  }
+}
