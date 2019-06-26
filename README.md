@@ -1,9 +1,14 @@
 # Installation
-```pip install wynum```
-
 To install using github try
 
-```pip install -U -e git+https://github.com/wynum/wynum-python#egg=wynum```
+```bash
+yarn add https://github.com/wynum/wynum-node
+```
+or
+
+```bash
+npm install --save https://github.com/wynum/wynum-node
+```
 
 # Getting started
 Very easy to use. Create a ```Client``` and you're ready to go.
