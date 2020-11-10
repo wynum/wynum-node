@@ -90,7 +90,7 @@ module.exports = class Client{
   validateResponse(response) {
     if (Object.prototype.toString.call(response) == "[object Object]") {
       if (response['_error'] != undefined) {
-        if (response['_message'] == 'Secret Key Error') {
+        if (response['_message'] == 'Secret Key Error' || response['_message'] == 'Process not found.') {
           throw new Error('Secret key error')
         } else if (response['_message'] == 'Not Found') {
           throw new Error('Invalid Token')
